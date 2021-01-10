@@ -27,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
   List<Task> tasks = [
     Task(title: 'Go to the market', date: DateTime(2021, 1, 11), id: '123'),
     Task(title: 'Go to the beach', date: DateTime(2021, 1, 16), id: '321'),
-    Task(title: 'Go to the beach', date: DateTime(2021, 1, 16), id: '321'),
+    Task(title: 'Go to the gym', date: DateTime(2021, 1, 16), id: '321'),
   ];
 
   void deleteTask(String id) {
